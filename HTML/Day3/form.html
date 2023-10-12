@@ -1,0 +1,70 @@
+<!-- Form and Input tag -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="post"> 
+                                <!-- Text Field -->
+        <div>
+        <label for="firstname">Name</label>
+        <input type="text" id="firstname" name="username" placeholder="Enter Your First name" required>
+        </div>
+
+        <div>
+            <label for="lastname">Surname</label>
+            <input type="text"id="lastname" name ="username" placeholder="Enter your Last name" required>
+        </div>
+                               <!-- Radio Buttons -->
+        <div>
+
+            <label for="male">Male</label>
+            <input type="radio"id="male"name="gender"value="Male" required>
+        </div> 
+
+        <div>
+
+            <label for="female">Female</label>
+            <input type="radio"id="female"name="gender"value="female">
+        </div>
+                                 <!-- Checkbox -->
+        <div>
+
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+
+        </div>
+        
+                                 <!-- TextArea -->
+        <div>
+            <label for="comments">Reviews</label><br>
+            <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+        </div>
+
+                             <!-- Password -->
+        <div>
+            <label for="passwd">Enter the Password</label>
+            <input type="password" name="password" id="paswd">
+        </div>                     
+
+                             <!-- Dropdown menu Select tag -->
+        <div>
+            <select name="fruits" id="fruit">
+                <option value="Apple">Apple</option>
+                <option value="Mango">Mango</option>
+                <option value="Banana">Banana</option>
+            </select>
+        </div>
+        <br>
+
+                           <!-- Submit button -->
+                 
+        <div>
+            <input type="submit" value="submit">
+        </div>                   
+    </form>
+</body>
+</html>

@@ -1,0 +1,162 @@
+@font-face {
+    font-family:"shubham" ;
+    src: url("./font/Sunday\ Lemon.otf") format("OpenType");
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Urbanist:ital@1&family=Victor+Mono:wght@310;400&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin:20px 15px 15px 20px;
+    font-family: 'shubham';
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Urbanist', sans-serif;
+min-height: 100vh;
+}
+.sectionone{
+    border: 10px solid rgb(213, 207, 207);
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("https://im.indiatimes.in/content/2023/Jul/apj-abdul-kalam1_64c10624a26ef.jpg?w=1100&h=535&cc=1");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment:fixed;
+}
+/* font-family: 'Victor Mono', monospace; */
+.sectionone>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 15px solid red; */
+    padding: 10px;
+    margin: 10% 15% 15px 10%;
+    font-size: 30px;
+    word-spacing: 0.5px;
+}
+.sectionone>div{
+    /* border: 10px solid red; */
+    /* font-family: 'Urbanist'; */
+    font-weight: 900;
+    font-size: large;
+    width: 30rem;
+    margin: 5% 10% 10% 30%;
+    padding: 20px 15px 10px 10px;
+    word-spacing: 2px;
+}
+
+.sectiontwo{
+    /* border: 10px solid red; */
+    border: 10px solid rgb(213, 207, 207);
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("https://kashmirobserver.net/wp-content/uploads/2020/07/APJ-Abdul-Kalam.png.webp");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment:fixed;
+}
+.sectiontwo>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 15px solid red; */
+    padding: 20px;
+    margin: 5% 15% 15px 10%;
+    font-size: 30px;
+    word-spacing: 1.9px;
+}
+.sectiontwo>div{
+    /* border: 10px solid red; */
+    width:30rem;
+    margin: 5% 10% 10% 30%;
+    padding: 20px 15px 10px 10px;
+    word-spacing: 2px;  
+    font-size: large;
+    font-weight: 900;
+
+}
+.sectionthree>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 15px solid red; */
+    padding: 20px;
+    margin: 5% 15% 15px 10%;
+    font-size: 30px;
+    word-spacing: 1.9px;
+}
+.sectionthree{
+    border: 10px solid rgb(213, 207, 207);
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("https://kashmirobserver.net/wp-content/uploads/2020/07/APJ-Abdul-Kalam.png.webp");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment:fixed;
+}
+
+.sectionthree>p{
+    /* border: 10px solid red; */
+    width:30rem;
+    margin: 5% 10% 10% 30%;
+    padding: 20px 15px 10px 10px;
+    word-spacing: 2px;  
+    font-size: large;
+    font-weight: 900;
+}
+.sectionfour{
+    border: 10px solid rgb(213, 207, 207);
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("https://kashmirobserver.net/wp-content/uploads/2020/07/APJ-Abdul-Kalam.png.webp");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-attachment:fixed;
+}
+.sectionfour>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 15px solid red; */
+    padding: 20px;
+    margin: 5% 15% 15px 10%;
+    font-size: 30px;
+    word-spacing: 1.9px;
+}
+.sectionfour>p{
+    /* border: 10px solid red; */
+    width:30rem;
+    margin: 5% 10% 10% 30%;
+    padding: 20px 15px 10px 10px;
+    word-spacing: 2px;  
+    font-size: large;
+    font-weight: 900;
+}
