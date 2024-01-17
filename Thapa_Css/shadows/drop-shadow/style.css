@@ -49,6 +49,6 @@ body {
 }
 
 img {
-  /*box-shadow: 0 0 0 40px #fff;
-  */ /*?filtershadowhere*/
+  /* box-shadow: 0 0 0 40px #fff; */
+  filter: drop-shadow(0 0 20px rgb(255, 0, 0));
 }

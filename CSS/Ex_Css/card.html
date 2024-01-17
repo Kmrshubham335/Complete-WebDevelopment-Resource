@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .parent {
+            border-radius: 10px;
+            background-color: rgb(226, 226, 226);
+            margin-top: 2%;
+            margin-left: 25%;
+            padding: 3px;
+            width: 50vw;
+            height: 90vh;
+        }
+
+        .box1 {
+            background-color: white;
+            margin-top: 2rem;
+            position: relative;
+            left: 25%;
+            width: 25vw;
+            height: 80vh;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 5%;
+
+        }
+
+        .box1>img {
+            padding: 5px;
+            margin: 3px 3px 3px 3px;
+            border-radius: 10%;
+            height: 35vh;
+            width: 24vw;
+        }
+
+        .p1 {
+            width: 10px;
+        }
+
+        .p1>p {
+            display: inline-block;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 4px;
+            font-size: medium;
+            font-weight: 200;
+            font-family: cursive;
+        }
+
+        .p2>p {
+            margin-top: -100px;
+            margin-left: 23px;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: medium;
+            font-weight: 200;
+            font-family: cursive;
+        }
+
+        .h2>h2 {
+            padding: 2px 2px 2px 10px;
+        }
+
+        .para>p {
+            word-spacing: 3px;
+            font-family: cursive;
+            padding: 2px 2px 2px 2px;
+        }
+
+        .submit>button {
+            border-radius: 7px;
+            font-weight: 500;
+            text-align: center;
+            margin: 50px 5px 5px 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box1">
+            <img src="./man.jpg" alt="Sunset">
+            <span class="p1">
+                <p>Nature</p>
+            </span>
+            <span class="p2">
+                <p>Mountain</p>
+            </span>
+            <div class="h2">
+                <h2>Lorem ipsum</h2>
+            </div>
+            <div class="para">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore nostrum voluptate aperiam
+                    vel minima.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, facilis?
+                </p>
+            </div>
+            <div class="submit">
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

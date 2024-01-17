@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .logo{
+            width: 50px;
+            height: 60px;
+            background-color: blue;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            
+        }
+        .right ul {
+            display: flex;
+            gap: 30px;
+
+        }
+        .right ul li{
+            list-style: none;
+            
+        }
+        a::before{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/CSS/Day16_flexbox/flex.html">flexbox</a></li>
+                    <li><a href="/CSS/Day13_Position/index.html">Position</a></li>
+                    <li><a href="/CSS/Day15_mediaQuery/media.html">MediaQuery</a></li>
+                    <li><a href="/CSS/Day17_Grid/grid2.html">Grid</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main1">
+
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

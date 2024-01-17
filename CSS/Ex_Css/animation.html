@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(54, 54, 225, 0.597);
+        }
+        .box{
+            position:absolute;
+            bottom: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 70px;
+            background-color: brown;
+            animation: X-axis 3s linear infinite , Y-axis 3s ease-out infinite  alternate;
+
+        }
+        @keyframes X-axis    {
+            from{
+                left: 0%;
+            }
+            to{
+                left: 100%;
+            }
+        }
+        @keyframes Y-axis {
+            from{
+                bottom: 0%;
+            }
+            to{
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">        </div>
+    </div>
+</body>
+</html>

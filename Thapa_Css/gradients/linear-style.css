@@ -14,7 +14,7 @@ section {
   width: 100%;
   height: 100vh;
   /* background-image: linear-gradient(red, yellow); */
-  background-image: linear-gradient(to left, red, yellow);
+  /* background-image: linear-gradient(to left, red, yellow); */
   /* background-image: linear-gradient(to top, red, yellow); */
   /* background-image: linear-gradient(90deg, red, yellow); */
   /* background-image: linear-gradient(270deg, red, yellow); */
@@ -32,8 +32,11 @@ section {
     #00bf72,
     #a8eb12
   ); */
-  /* background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 50px); */
-  /* background-image: linear-gradient(
+  /* background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 20px); */
+
+  /* For image and background */
+  
+   background-image: linear-gradient(
       to right top,
       rgba(5, 25, 55, 0.6),
       rgba(0, 77, 122, 0.6),
@@ -42,15 +45,15 @@ section {
       rgba(168, 235, 18, 0.6)
     ),
     url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-repeat: no-repeat;
-  background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
 /**-----------------------
 /** Interview Question  
 /** ----------------------- */
 
-/*?  1: What are CSS gradients, and why are they useful in web design? */
+/*? 1: What are CSS gradients, and why are they useful in web design? */
 /* sol: CSS gradients are a way to create smooth transitions between two or more specified colors. They are useful in web design because they allow for the creation of visually appealing backgrounds, buttons, and text effects, enhancing the overall design and user experience. */
 
 /*? 2: Explain the difference between linear gradients and radial gradients in CSS. When would you use one over the other?
@@ -89,3 +92,4 @@ sol: Linear gradients create a smooth transition along a straight line, such as 
     rgba(168, 235, 18, 0.9)
   ),
   url("https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+}

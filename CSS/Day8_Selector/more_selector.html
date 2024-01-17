@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        .box:first-child {
+            background-color: aqua;
+        }
+
+        .box::first-line {
+            color: rgb(11, 228, 87);
+        }
+
+        /* Grouping of the selector */
+        .box[data-color="primary"] {
+            padding: 5px;
+            border: 2px solid red;
+        }
+
+        .box:nth-child(even) {
+            background-color: tomato;
+        }
+
+        .box:nth-last-child(1) {
+            background-color: blueviolet;
+        }
+
+        .boxes::before {
+            content: "hello ";
+        }
+
+        ::selection {
+            color: brown;
+            background-color: black;
+        }
+        .box::first-letter{
+            color: blueviolet;
+            font-size: larger;
+        }
+        ::placeholder{
+            color: turquoise;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hii I am the first box</div>
+        <div class="box">Hii I am the second box</div>
+        <div class="box">Hii I am the second box</div>
+    </div>
+    <input type="text" placeholder="Enter your text">
+</body>
+
+</html>

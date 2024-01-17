@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Animation</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;  
+            border: 2px solid red;
+            background-color: rgb(187, 247, 247);
+        }
+        .box{
+            position: absolute;
+            width: 20vw;
+            height: 20vh;
+            background-color: blue;
+            animation:leftright 3s alternate infinite;
+        }
+        @keyframes leftright {
+            from{
+                left: 0%;
+            }
+            to{
+                left: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Exercise for animation</h2>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+CSS position - to manipulate the location of an element
+
+1- position: static;  //(by default property , no effect of top, bottom, left, right, z-index) 
+2- position: relative;  //(shift the position according to its actual position)
+3- position: absolute: //(shift the position to its nearest parent element)
+4- position: fixed; // same as absolute, except the element is positioned relative to browser window no effect of scroll
+
+5- position: sticky; // element is positioned based on scroll position, until the scroll location of the viewport reaches a specified threshold. (when scroll in sticky container it behaves like static)

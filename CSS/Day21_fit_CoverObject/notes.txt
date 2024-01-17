@@ -1,0 +1,9 @@
+fill: The content is stretched to completely fill the container box, potentially distorting its aspect ratio.by default property
+contain: The content is scaled to maintain its aspect ratio while fitting within the container box. There may be empty space within the container.
+cover: The content is scaled to cover the entire container, potentially cropping parts of the content to maintain aspect ratio.
+none: The content is not resized. It retains its intrinsic size.
+scale-down: The content is scaled to the smaller of none or contain. It will never be scaled up to be larger than its natural size.
+
+                                object-position Property:
+The object-position property defines the alignment of the replaced element's content within its container.
+Values can be specified using keywords (left, center, right, top, bottom) or using length or percentage values to position the content relative to the container box.                            

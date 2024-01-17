@@ -1,0 +1,21 @@
+
+<!-- Css unit
+1) px -pixel (individual dot of display)
+2) viewport - relative to screen display
+ vw- viewport width 
+ vh- viewport height
+3) em-  relative to font size of  parent container( if 2em = 2*parent element size
+If parent height = 10px
+Thn child height = 2*10px = 20px)
+
+4) rem- relative to font size of root element (2rem= 2*size of root element )
+5) vmin - in computer vmin =height
+                In phone vmin= width
+6) vmax 
+7) min height = Min height of the container
+ ( if for any containers min-height = 50px
+Height= 10 px
+For this case height of container will 50px)
+8) max height ( Max height of container)
+9) % - n% of parent element
+( if height of a container is 100px , height of child 80% , height of child will be - 80% of 100px = 80px) --> 

@@ -1,0 +1,1 @@
+fr(fractional unit ) is used in css to used the remaining space in grid .
