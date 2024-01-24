@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting and Removing Elements </title>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container red">
+        <div class="box" style="display: flex;" data-created="shubham">I am the Box</div>
+        <div class="box">
+            <h2>I am the Box </h2>
+        </div>
+    </div>
+    <script>
+        // console.log(document.querySelector(".box").dataset)  //store the data
+        let di = document.createElement("div")
+        di.textContent = "Hello I have been inserted by Shubham"
+        di.setAttribute("class", "created")
+        document.querySelector(".container").append(di)  //append the text at the last dynamically
+
+        // let dii=document.createComment("div")
+        // dii.textContent="hello I have been Inserted before"
+        // di.setAttribute("class","before")
+        // document.querySelector(".container").Before(dii)
+
+        //adding the html by using the insert adjacent html
+        let con = document.querySelector(".container")
+        con.insertAdjacentHTML("afterend", "hello are you there")
+
+        //adding the text by using the insert adjacent text 
+        let conn = document.querySelector(".container")
+        conn.insertAdjacentText("beforebegin", "hello afterbegin text")
+
+        // console.log(document.querySelector(".container").classList)
+        // console.log(document.querySelector("container").classList.add("shubh"))
+        // console.log(document.querySelector(".container"))
+
+        let to =document.querySelector(".container").classList.toggle("red") 
+        //return true or false depend upon the class is present or not.It also help to add or remove the particular class 
+        console.log(to)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event bubbling</title>
+    <style>
+        .child {
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 14px;
+            margin: 14px;
+            cursor: pointer;
+        }
+
+        .childContainer {
+            background-color: beige;
+            padding: 14px;
+            margin: 14px;
+        }
+
+        .container {
+            background-color: rgb(227, 227, 28);
+            padding: 14px;
+            margin: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="childContainer">
+            <div class="child">
+                I am a child
+            </div>
+        </section>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("Child Was clicked")
+        })
+
+        document.querySelector(".childContainer").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("childContainer Was clicked")
+        })
+
+        document.querySelector(".container").addEventListener("click", (e) => {
+            console.log(e)
+            alert("container Was clicked")
+        })
+        
+         const gen_color = () => {
+            var letter = "0123456789ABCDEF"
+            var col = "#"
+            for (var i = 0; i < 6; i++) {
+                col += letter[Math.floor(Math.random() * 16)];
+            }
+            return col
+        }
+        //perform the action in every 3 sec of interval
+
+        // let a = setInterval(() => {
+        //     document.querySelector(".child").style.background = gen_color()
+        // }, 3000)
+
+        //perform the action only once at 1 sec after that it will stop
+        setTimeout(() => {
+            document.querySelector(".child").style.background = gen_color()
+        }, 1000)
+    </script>
+</body>
+
+</html>

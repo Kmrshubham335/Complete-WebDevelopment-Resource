@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .box {
+            height: 20px;
+            width: 30px;
+            padding: 35px;
+            margin: 40px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <table>
+        <caption>Employee Details</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>30</td>
+                <td>San Francisco</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bob Johnson</td>
+                <td>22</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.title = "Target the table tag by Dom"
+        let ta = document.body.childNodes[3]
+        console.log(ta  )
+        console.log(ta.rows)
+        console.log(ta.caption)
+        console.log(ta.tHead)
+        console.log(ta.tBodies)
+        
+    </script>
+</body>
+</html>

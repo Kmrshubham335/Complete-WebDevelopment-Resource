@@ -1,0 +1,6 @@
+In CSS, when you use flex: 1; as a shorthand property within a flex container, you are setting the flexibility of a flex item. The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.
+Here's the breakdown of flex: 1:
+flex-grow: This property determines how much a flex item should grow relative to the other flex items in the same container. The value 1 means that the item will grow to fill any available space, taking up an equal share of the available space with other items that also have a flex-grow value of 1.
+flex-shrink: This property defines how much a flex item should shrink if there is not enough space in the flex container. The value 1 means that the item will shrink proportionally to the other items with a flex-shrink value of 1.
+flex-basis: This property sets the initial size of a flex item. In the case of flex: 1;, it implies flex-basis: 0%;, which means the initial size of the item is 0% of the container's size.
+So, flex: 1; is commonly used to make flex items within the same container share available space equally, and it is a concise way of expressing that each item should grow and shrink based on the available space

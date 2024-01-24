@@ -1,4 +1,7 @@
 cdn:content delivery network.The primary goal of a CDN is to improve the performance, speed, and reliability of loading web pages by reducing the physical distance between the user and the server delivering the content.
 It connect to the nearest server.For the better performance like rendering of img ,video, etc.
 
-If we have multiple div in a one class and we want to put in the same line(row) then put the parent div into display flex
+If we have multiple div in a one class and we want to put in the same line(row) then put the parent div into display flex.
+Paragraph tag is block level element. we can use the display inline.
+to aline item in center or vertically aline item in center we can use the aline item center in the parent container.
+to fit the img in the background we have to do background-cover

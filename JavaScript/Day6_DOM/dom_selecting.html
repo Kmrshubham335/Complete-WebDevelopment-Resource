@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selecting by Ids, Classes, and More</title>
+    <style>
+      .box {
+        height: 20px;
+        width: 30px;
+        padding: 25px;
+        margin: 10px;
+        border: 5px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">box2</div>
+      <div id="red" class="box">box2.5</div>
+      <div class="box">box3</div>
+      <div class="box">box4</div>
+      <div class="box">box5</div>
+      <div class="box">box6</div>
+    </div>
+    <script>
+      // let chi=document.body.firstElementChild.childNodes[5]
+      // console.log(chi)
+      // let box=document.getElementsByClassName("box")
+      // console.log(box)
+      // box[3].style.backgroundColor="red"
+      //to target the particular element in dom we use to give id here element which is in the 3 index will always get the backgroundcolor red
+      let box = document.getElementById("red");
+      console.log(box);
+      document.getElementById("red").style.backgroundColor = "black";
+      document.querySelector(".box").style.backgroundColor = "green";
+      document.querySelectorAll(".box").forEach((e) => {
+        e.style.backgroundColor = "yellow";
+      });
+      console.log(document.getElementsByTagName("div"));
+      //return all the tag which have div in it
+    </script>
+  </body>
+</html>

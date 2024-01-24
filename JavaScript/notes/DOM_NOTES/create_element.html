@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element In Dom with JS</title>
+</head>
+<body>
+    <h1>Dom</h1>
+    <ul>
+        <li>Inserting Nodes into the DOM</li>
+        <li>milk</li>
+        <li>Mango</li>
+        <li>Apple</li>
+    </ul>
+    <script>
+      /* const para=document.createElement('p')
+        para.textContent="hii I am textContent"
+        console.log(para)   
+        const txt=document.createTextNode("Hii I am Text Node")
+        console.log(txt) */
+
+        //append element in list at last position 
+        const to=document.querySelector('ul')
+        const todo=document.createElement('li')
+        todo.textContent="Orange"
+        to.appendChild(todo)
+
+        //append element in list at first Position
+        const t=document.createElement('li')
+        t.textContent="Pay Bill"
+        to.insertBefore(t,to.firstChild)
+
+        const s=document.querySelector('li')
+        s.textContent="Pay Fees"
+        s.insertBefore(s,to.firstChild)
+
+        
+    </script>
+</body>
+</html>

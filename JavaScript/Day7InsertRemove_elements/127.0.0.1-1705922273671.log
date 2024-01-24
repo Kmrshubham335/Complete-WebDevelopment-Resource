@@ -1,0 +1,305 @@
+index.html:1 Denying load of chrome-extension://iadokddofjgcgjpjlfhngclhpmaelnli/src/assets/locales/en/translation.json. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+contentScript.bundle.js:261633 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+loadOne @ contentScript.bundle.js:260933
+(anonymous) @ contentScript.bundle.js:260917
+prepareLoading @ contentScript.bundle.js:260916
+load @ contentScript.bundle.js:260921
+loadResources @ contentScript.bundle.js:261245
+loadNamespaces @ contentScript.bundle.js:261439
+loadNamespaces @ contentScript.bundle.js:199574
+(anonymous) @ contentScript.bundle.js:200152
+useTranslation_useTranslation @ contentScript.bundle.js:200148
+RootWrapper @ contentScript.bundle.js:258546
+Ch @ contentScript.bundle.js:2335
+ck @ contentScript.bundle.js:2445
+bk @ contentScript.bundle.js:2428
+ak @ contentScript.bundle.js:2428
+Tj @ contentScript.bundle.js:2428
+Lj @ contentScript.bundle.js:2421
+(anonymous) @ contentScript.bundle.js:2301
+exports.unstable_runWithPriority @ contentScript.bundle.js:175654
+gg @ contentScript.bundle.js:2300
+jg @ contentScript.bundle.js:2301
+ig @ contentScript.bundle.js:2300
+Xj @ contentScript.bundle.js:2422
+tk @ contentScript.bundle.js:2467
+exports.render @ contentScript.bundle.js:2474
+(anonymous) @ contentScript.bundle.js:261954
+(anonymous) @ contentScript.bundle.js:261955
+(anonymous) @ contentScript.bundle.js:261957
+Show 68 more frames
+Show less
+index.html:1 Denying load of chrome-extension://iadokddofjgcgjpjlfhngclhpmaelnli/src/assets/locales/en/translation.json. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+contentScript.bundle.js:261633 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+loadOne @ contentScript.bundle.js:260933
+(anonymous) @ contentScript.bundle.js:260917
+prepareLoading @ contentScript.bundle.js:260916
+load @ contentScript.bundle.js:260921
+loadResources @ contentScript.bundle.js:261245
+loadNamespaces @ contentScript.bundle.js:261439
+loadNamespaces @ contentScript.bundle.js:199574
+(anonymous) @ contentScript.bundle.js:200152
+useTranslation_useTranslation @ contentScript.bundle.js:200148
+RootWrapper @ contentScript.bundle.js:258546
+Ch @ contentScript.bundle.js:2335
+ck @ contentScript.bundle.js:2445
+bk @ contentScript.bundle.js:2428
+ak @ contentScript.bundle.js:2428
+Tj @ contentScript.bundle.js:2428
+Lj @ contentScript.bundle.js:2421
+(anonymous) @ contentScript.bundle.js:2301
+exports.unstable_runWithPriority @ contentScript.bundle.js:175654
+gg @ contentScript.bundle.js:2300
+jg @ contentScript.bundle.js:2301
+ig @ contentScript.bundle.js:2300
+Xj @ contentScript.bundle.js:2422
+tk @ contentScript.bundle.js:2467
+exports.render @ contentScript.bundle.js:2474
+(anonymous) @ contentScript.bundle.js:261954
+(anonymous) @ contentScript.bundle.js:261955
+(anonymous) @ contentScript.bundle.js:261957
+Show 79 more frames
+Show less
+index.html:1 Denying load of chrome-extension://iadokddofjgcgjpjlfhngclhpmaelnli/src/assets/locales/en/translation.json. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+contentScript.bundle.js:261633 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+(anonymous) @ contentScript.bundle.js:260880
+setTimeout (async)
+resolver @ contentScript.bundle.js:260879
+(anonymous) @ contentScript.bundle.js:261831
+Promise.catch (async)
+fetchIt @ contentScript.bundle.js:261633
+requestWithFetch @ contentScript.bundle.js:261655
+request @ contentScript.bundle.js:261721
+loadUrl @ contentScript.bundle.js:261828
+(anonymous) @ contentScript.bundle.js:261818
+Promise.then (async)
+_readAny @ contentScript.bundle.js:261812
+read @ contentScript.bundle.js:261801
+read @ contentScript.bundle.js:260900
+loadOne @ contentScript.bundle.js:260933
+(anonymous) @ contentScript.bundle.js:260917
+prepareLoading @ contentScript.bundle.js:260916
+load @ contentScript.bundle.js:260921
+loadResources @ contentScript.bundle.js:261245
+loadNamespaces @ contentScript.bundle.js:261439
+loadNamespaces @ contentScript.bundle.js:199574
+(anonymous) @ contentScript.bundle.js:200152
+useTranslation_useTranslation @ contentScript.bundle.js:200148
+RootWrapper @ contentScript.bundle.js:258546
+Ch @ contentScript.bundle.js:2335
+ck @ contentScript.bundle.js:2445
+bk @ contentScript.bundle.js:2428
+ak @ contentScript.bundle.js:2428
+Tj @ contentScript.bundle.js:2428
+Lj @ contentScript.bundle.js:2421
+(anonymous) @ contentScript.bundle.js:2301
+exports.unstable_runWithPriority @ contentScript.bundle.js:175654
+gg @ contentScript.bundle.js:2300
+jg @ contentScript.bundle.js:2301
+ig @ contentScript.bundle.js:2300
+Xj @ contentScript.bundle.js:2422
+tk @ contentScript.bundle.js:2467
+exports.render @ contentScript.bundle.js:2474
+(anonymous) @ contentScript.bundle.js:261954
+(anonymous) @ contentScript.bundle.js:261955
+(anonymous) @ contentScript.bundle.js:261957
+Show 90 more frames
+Show less
+document.querySelector(".box").hasAttribute("style")
+true
+document.querySelector(".box").getAttribute("style")
+'display: flex;'
+document.querySelector(".box").setAttribute("style","inline")
+undefined
+document.querySelector(".box").getAttribute("style")
+'inline'

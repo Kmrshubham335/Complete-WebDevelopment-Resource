@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  border: border-box;
+  box-sizing: border-box;
 }
 
 .nav {
@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .nav-logo {
@@ -85,10 +86,12 @@
   border-top-right-radius: 5px;
   color: #0f1111;
 }
-.nav-search:hover{
-  border: 5px solid  rgb(255, 174, 0);
+
+.nav-search:hover {
+  border: 5px solid rgb(255, 174, 0);
   border-radius: 5px;
 }
+
 /* sign-in class styling */
 span {
   font-size: 0.7rem;
@@ -110,16 +113,84 @@ span {
   font-size: 14px;
   font-weight: 700;
 }
+
 .nav-cart i {
-  font-size: 30px ;
+  font-size: 30px;
 }
+
 .nav-cart {
   font-size: 0.85rem;
 }
 
 /* Styling the panel */
-.panel{
+.panel {
   height: 40px;
   background-color: #222f3d;
-  
+  display: flex;
+  color: #fdf6f6ff;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.panel-ops p {
+  display: inline;
+  margin: 5px 0 6px 0;
+  padding: 8px 9px;
+}
+
+.panel-ops {
+  width: 90%;
+  font-size: 0.85rem;
+  font-weight: bolder;
+}
+
+/* Styling the hero section */
+.hero-section {
+  background-image: url("/Amazon_Clone/img/hero.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background: #F5F6F6;
+  color: black;
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.link {
+  color: #007185;
+  text-decoration: none;
+}
+
+.shop-content
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(231, 251, 7, 0.647);
+}
+.box
+{
+  border: 2px solid red;
+  height:350px;
+  width: 24%;
+  background-color: white;
+  border-radius: 2px solid rgb(0, 0, 0);
+  /* margin: 10px; */
+}
+.box-img
+{
+  background-image: url("/Amazon_Clone/img/Fuji_Quad_Headset_.jpg");
+  height:60%;
+  width: 35px;
 }

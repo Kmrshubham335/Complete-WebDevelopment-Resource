@@ -1,0 +1,47 @@
+<!-- In modifying classes first we can create a class in css and then we can add or override that class with the help of the class name -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 600px;
+            margin: 0 auto;
+            font-family: sans-serif;
+        }
+
+        .active {
+            border: 2px solid blue;
+        }
+
+        .warning {
+            border: 2px solid red;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        div {
+            border: 2px dashed lightgray;
+            padding: 15px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>Div 1</div>
+    <div class="active">Div 2</div>
+    <script>
+        let d=document.querySelector('div')
+        d.className='warning'
+
+        let dd=document.querySelector('.active')
+        dd.className='hidden'
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!-- Generate the random idea -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating the Random Color </title>
+    <style>
+        .box {
+            height: 30px;
+            width: 35px;
+            border: 2px solid red;
+            padding: 12px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            height: 100px;
+            width: 500px;
+            border: 5px solid red;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+    </div>
+    <script>
+        let boxes = document.getElementsByClassName("box")
+        let contain = document.getElementsByClassName("container")
+
+        // Creating the function to generate the random color
+        const gen_color = () => {
+            var letter = "0123456789ABCDEF"
+            var col = "#"
+            for (var i = 0; i < 6; i++) {
+                col += letter[Math.floor(Math.random() * 16)];
+            }
+            return col
+        }
+        const apply_color = () => {
+            for (let i = 0; i < boxes.length; i++) {
+                boxes[i].style.backgroundColor = gen_color()
+            }
+        }
+        const contain_color=()=>{
+            for (let i=0;i<contain.length;i++)
+            {
+                contain[i].style.backgroundColor=gen_color()
+            }
+        }
+        apply_color()
+        contain_color()
+    </script>
+</body>
+
+</html>

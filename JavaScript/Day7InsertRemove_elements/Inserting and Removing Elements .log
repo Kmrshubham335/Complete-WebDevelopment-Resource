@@ -1,0 +1,17 @@
+document.querySelector(".box").innerHTML
+'I am the Box'
+document.querySelector(".box")
+<div class=​"box">​I am the Box​</div>​
+index.html:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+document.querySelector(".box").innerText
+'I am the Box'
+document.querySelector(".container").innerHTML = "hii i am innerHtml"
+'hii i am innerHtml'
+document.querySelector(".container").hidden 
+false
+document.querySelector(".container").hidden = true
+true
+document.querySelector(".container").hidden = false
+false
+document.querySelector(".container").hasAttribute("h2")
+false

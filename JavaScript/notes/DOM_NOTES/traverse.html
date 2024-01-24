@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning About Nodes</title>
+    <style>
+        * {
+            border: 2px solid #dedede;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 600px;
+            font-family: sans- serif;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Shark World</h1>
+    <p>The world's leading source on
+        <strong>shark</strong> related information.
+    </p>
+    <h2>Types of Sharks</h2>
+    <ul>
+        <li>Hammerhead</li>
+        <li>Tiger</li>
+        <li>Great White</li>
+    </ul>
+    <script>
+        console.log(document.body.firstChild) //text
+        let fc=document.body.firstElementChild //h1
+        // console.log(fc.firstChild)
+        console.log(fc.lastElementChild)
+        console.log(document.body.ul.firstChild)
+    </script>
+</body>
+
+</html>
