@@ -1,6 +1,6 @@
 let istatus = document.querySelector("h5")
 let btn = document.querySelector("#add")
-let re = document.querySelector("#remove")
+// let re = document.querySelector("#remove")
 let check = 0
 document.title="Adding friend feature with same button"
 
