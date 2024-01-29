@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styling the container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+/* Styling the h2 tag and icon */
+.to-do-app {
+    width: 100%;
+    max-width: 540px;
+    background: rgba(165, 247, 195, 0.668);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Styling the row: input and add button style  */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.input-text {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+}
+/* Styling the unorder List  */
+ul li
+{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 12px 8px 12px 50px ;
+    position: relative;
+}
+/* Adding the check box before the task  */
+ul li::before
+{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    /* border-radius: 50%; */
+    background-image: url('./images/icons8-unchecked-checkbox-50.png');
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    background: snow;
+}
+ul li.checked
+{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before
+{
+    background-image: url("./images/icons8-checked-checkbox-50.png");
+    background-position: center;
+
+}
+/* Styling the span tag */
+ul li span
+{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #f00404;
+    line-height: 40px;
+    text-align: center;
+
+}
+ul li span:hover
+{
+background: #d4d8e0;
+}
