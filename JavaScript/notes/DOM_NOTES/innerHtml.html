@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHtml</title>
+</head>
+<body>
+    <h2>Hello I am H2</h2>
+    <p>Hi i am paragraph</p>
+    <h3>Hello i am h3</h3>
+    <div>Hii i  am Block element</div>
+    <button id="btn">Click me</button>
+    <script>
+        // Reading element by innerHtml
+        const getElement = document.querySelector("h2")
+     const readElement = getElement.innerHTML
+     console.log(readElement)
+     // Overwriting the element 
+     const write =  document.querySelector("h3")
+     write.innerHTML="Hello I am heading Tag"
+     console.log(write.innerHTML)
+    </script>
+</body>
+</html>
