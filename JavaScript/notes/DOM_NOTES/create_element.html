@@ -31,10 +31,14 @@
         t.textContent="Pay Bill"
         to.insertBefore(t,to.firstChild)
 
-        const s=document.querySelector('li')
-        s.textContent="Pay Fees"
-        s.insertBefore(s,to.firstChild)
+        // const s=document.querySelector('li')
+        // s.textContent="Pay Fees"
+        // s.insertBefore(s,to.firstChild)
 
+        const h = document.querySelector("h1")
+        const span = document.createElement('span')
+        span.textContent="Hello I am span createElement had created me"
+        h.appendChild(span)
         
     </script>
 </body>

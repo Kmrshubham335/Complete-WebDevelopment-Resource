@@ -25,20 +25,26 @@
       <div class="box">box6</div>
     </div>
     <script>
-      // let chi=document.body.firstElementChild.childNodes[5]
-      // console.log(chi)
+      let child = document.body.firstChild
+      console.log(child)
+      let chi=document.body.firstElementChild.childNodes[5]
+      chi.innerText = "hello"
+      console.log(chi.innerText)
+      let create = document.body.firstElementChild.childNodes
+      create.innerHtml = "<div>box7</div>"
+      console.log(create.innerHtml)
       // let box=document.getElementsByClassName("box")
       // console.log(box)
       // box[3].style.backgroundColor="red"
       //to target the particular element in dom we use to give id here element which is in the 3 index will always get the backgroundcolor red
-      let box = document.getElementById("red");
-      console.log(box);
-      document.getElementById("red").style.backgroundColor = "black";
-      document.querySelector(".box").style.backgroundColor = "green";
-      document.querySelectorAll(".box").forEach((e) => {
-        e.style.backgroundColor = "yellow";
-      });
-      console.log(document.getElementsByTagName("div"));
+      // let box = document.getElementById("red");
+      // console.log(box);
+      // document.getElementById("red").style.backgroundColor = "black";
+      // document.querySelector(".box").style.backgroundColor = "green";
+      // document.querySelectorAll(".box").forEach((e) => {
+      //   e.style.backgroundColor = "yellow";
+      // });
+      // console.log(document.getElementsByTagName("div"));
       //return all the tag which have div in it
     </script>
   </body>
