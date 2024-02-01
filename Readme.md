@@ -19,6 +19,6 @@ The repository is organized into folders corresponding to the topics covered in 
    git clone https://github.com/your-username/web-development.git
 
 
-If you find any errors, improvements, or have suggestions, feel free to contribute by creating issues or pull requests.
+If you find any errors, or improvements, or have suggestions, feel free to contribute by creating issues or pull requests.
 
 Make sure to replace "your-username" with your actual GitHub username. With this correction, your README is ready for use!
