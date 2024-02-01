@@ -47,6 +47,58 @@ console.log(result);
 // console.log(privateVar);
 
 -------------------------------------------------------------------------------------------
+# Scope in JavaScript
+
+## Block Scope 
+
+###### the let and const keywords introduced block-scoped variables. These variables are scoped to the nearest enclosing pair of curly braces {}. 
+
+```javascript
+if (true) {
+    // Block scope
+    let blockVar = "I am in a block";
+    console.log(blockVar); // Accessible
+}
+
+// The following line would throw an error because blockVar is not defined outside the block.
+// console.log(blockVar);
+```
+### Local Scope
+
+ Variables declared inside a function or block have local scope.
+They are only accessible within that function or block.
+
+```javascript
+function exampleFunction() {
+    // Local scope
+    let localVar = "I am local";
+    console.log(localVar); // Accessible
+}
+
+exampleFunction();
+// The following line would throw an error because localVar is not defined globally.
+// console.log(localVar);
+```
+
+## Global Scope:
+Variables or functions declared outside of any function or block have a global scope.
+They are accessible throughout the entire script, including inside functions.
+
+```javascript
+// Global scope
+let globalVar = "I am global";
+
+function exampleFunction() {
+    console.log(globalVar); // Accessible
+}
+
+exampleFunction();
+console.log(globalVar); // Accessible
+```
+
+
+
+
 
 
 
