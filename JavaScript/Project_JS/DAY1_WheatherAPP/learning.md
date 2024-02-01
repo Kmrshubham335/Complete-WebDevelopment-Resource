@@ -80,6 +80,7 @@ So, flex: 1; is commonly used to make flex items within the same container share
     </div>
 
     <!-- JavaScript Section -->
+  ```javascript
     <script>
         // OpenWeatherMap API key and base URL
         const api_id = "b144409acf804ac843b12338efebe3a3";
@@ -127,6 +128,7 @@ So, flex: 1; is commonly used to make flex items within the same container share
         });
 
     </script>
+  ```
 </body>
 
 </html>
