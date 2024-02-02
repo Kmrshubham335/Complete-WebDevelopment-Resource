@@ -56,7 +56,7 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 }
-function resetState() {
+function resetState()9 {
   nextButton.style.display = "none";
   while (answerButton.firstChild) {
     answerButton.removeChild(answerButton.firstChild);

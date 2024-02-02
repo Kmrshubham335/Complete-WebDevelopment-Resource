@@ -1,6 +1,7 @@
-
-<!-- Css unit
-1) px -pixel (individual dot of display)
+//OverView
+1. Absolute Units:
+ px:Pixels are fixed-size units and are commonly used for precise control over element dimensions. They provide a stable layout but may not adapt well to different screen sizes. 
+ (individual dot of display)
 2) viewport - relative to screen display
  vw- viewport width 
  vh- viewport height
@@ -10,7 +11,7 @@ Thn child height = 2*10px = 20px)
 
 4) rem- relative to font size of root element (2rem= 2*size of root element )
 5) vmin - in computer vmin =height
-                In phone vmin= width
+ In phone vmin= width
 6) vmax 
 7) min height = Min height of the container
  ( if for any containers min-height = 50px
@@ -18,4 +19,4 @@ Height= 10 px
 For this case height of container will 50px)
 8) max height ( Max height of container)
 9) % - n% of parent element
-( if height of a container is 100px , height of child 80% , height of child will be - 80% of 100px = 80px) --> 
+( if height of a container is 100px , height of child 80% , height of child will be - 80% of 100px = 80px) 
