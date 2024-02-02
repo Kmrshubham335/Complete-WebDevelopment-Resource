@@ -11,7 +11,7 @@ Welcome to my Web Development repository! Here, I am documenting my journey in l
 The repository is organized into folders corresponding to the topics covered in the tutorials.
 - Each folder may contain code examples, projects, and additional resources related to the specific topic.
 
-## How to Use:
+## How to Use:-
 
 1. Clone the repository to your local machine:
 

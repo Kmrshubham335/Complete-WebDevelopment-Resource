@@ -20,6 +20,6 @@ btn.addEventListener("click", () => {
 })
 
 // re.addEventListener("click",()=>{
-//     istatus.innerText="GirlFriend"
+//     istatus.innerText="Friend"
 //     istatus.style.color="red"
 // })
