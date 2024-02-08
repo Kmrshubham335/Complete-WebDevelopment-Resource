@@ -1,7 +1,7 @@
 function passwordValidator(password) {
   // Check if the password is at least 8 characters long
   if (password.length < 8) {
-    return false;
+    return console.log("Length should be 8");
   }
 
   // Check if the password contains both uppercase and lowercase letters
