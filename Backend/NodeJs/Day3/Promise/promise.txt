@@ -1,0 +1,2 @@
+Creating file with the help of promise writeFile
+appending the file
