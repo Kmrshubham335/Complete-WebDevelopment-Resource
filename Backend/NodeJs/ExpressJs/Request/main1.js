@@ -32,7 +32,7 @@ app.get('/index',(req,res)=>{
 //More than One CallBack
 app.get('/example',(req,res,next)=>{
     console.log("First CallBack")
-    next() // To use more than more callBack We use next()method
+    next() // To use more than one callBack We use next()method
 },(req,res)=>{
     console.log("Second Call Back")
     res.send("More than One CallBack Example")
