@@ -46,11 +46,6 @@ app.get('/User/:id([0-9]){2}',(req,res)=>{
     console.log(`Id ${req.params.id}`)
 })
 
-
-
-
-
-
 app.get('/flight/:from-/:to-/:On', (req, res) => {
     const { from, to } = req.params
     res.send(`Flight from ${req.params.from} to ${req.params.On} At ${req.params.On}`)

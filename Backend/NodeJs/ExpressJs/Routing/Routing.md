@@ -9,7 +9,7 @@ app.get('/about', (req, res) => {
 the route path /about matches requests to http://example.com/about.
 
 ###### Dynamic Route Parameters:
- # Defining route parameters by prefixing a path segment with a colon :. Route parameters capture variable values from the URL and make them accessible within the route handler via the req.params object. 
+ Defining route parameters by prefixing a path segment with a colon :. Route parameters capture variable values from the URL and make them accessible within the route handler via the req.params object. 
 
 ```javascript
 app.get('/users/:userId', (req, res) => {
@@ -20,7 +20,7 @@ app.get('/users/:userId', (req, res) => {
  the route path /users/:userId matches requests to http://example.com/users/123, where 123 is captured as the value of userId.
 
  ##### Optional Route Parameters:
-# Make route parameters optional by suffixing them with a question mark ?. 
+Make route parameters optional by suffixing them with a question mark ?. 
 ```javascript
  app.get('/users/:userId?', (req, res) => {
     const userId = req.params.userId || 'default';
