@@ -1,0 +1,84 @@
+<%- include('./partials/header.ejs')%>
+<%- include('./partials/navBar.ejs')%>
+<div class="container">
+    <div class="row mt-5 ">
+        <h1>Login Page</h1>
+        <style>
+            /* Custom styles for Navbar */
+            .navbar {
+              background-color: #292929; /* Dark background color */
+              padding: 20px 0;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            }
+        
+            .navbar-brand, .navbar-nav .nav-link {
+              color: #ffffff !important; /* White text color */
+              font-size: 24px;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+        
+            .navbar-brand:hover, .navbar-nav .nav-link:hover {
+              color: #ffbc42 !important; /* Yellow text color on hover */
+            }
+        
+            /* Add anime-inspired animation effect */
+            @keyframes floatUpDown {
+              0%, 100% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(-10px);
+              }
+            }
+        
+            .navbar-brand {
+              animation: floatUpDown 2s ease infinite;
+            }
+        
+            .nav-link {
+              transition: transform 0.3s ease;
+            }
+        
+            .nav-link:hover {
+              transform: translateY(-5px);
+            }
+        
+            /* Custom styles for the form */
+            .container {
+              margin-top: 50px;
+            }
+        
+            .form-control {
+              margin-bottom: 20px;
+            }
+        
+            /* Custom button style */
+            .btn-custom {
+              background-color: #ffbc42;
+              border: none;
+            }
+        
+            .btn-custom:hover {
+              background-color: #ff9500;
+            }
+          </style>
+        
+        <div class="container">
+          <form method="post">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" required id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" required id="password" name="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-custom">Login</button>
+          </form>
+        </div>        
+    </div>
+</div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs')%>
