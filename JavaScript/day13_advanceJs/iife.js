@@ -23,3 +23,8 @@ async function sleep (){
 (()=>{
     console.log("An unnamed arrow function")
 })
+
+(function(arg1, arg2) {
+    console.log("Argument 1:", arg1);
+    console.log("Argument 2:", arg2);
+})("Hello", 42);
