@@ -1,6 +1,6 @@
 Event Loop in Asynchronous Programming
 --------------------------------------
-The event loop is a critical component in asynchronous programming that enables the execution of non-blocking code. It manages the flow of execution in a program, ensuring that asynchronous tasks are handled efficiently.
+The event loop is a critical component in asynchronous programming that enables the execution of non-blocking co de. It manages the flow of execution in a program, ensuring that asynchronous tasks are handled efficiently.
 
 Key Components of the Event Loop:
 ----------------------------------
