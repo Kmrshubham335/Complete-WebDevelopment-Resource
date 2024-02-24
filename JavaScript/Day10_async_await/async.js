@@ -14,5 +14,16 @@ async function main() {
     let data = await getData()
     console.log("I will wait for the data from the getData Function after that I will be executed", data)
     console.log("data has be retreive")
+    let output = await input()
+    console.log(output)
 }
 main()
+
+async function input(){
+    return new Promise((res,rej)=>{
+        setInterval(()=>{
+            console.log("Code Block of input async function")
+            res(`res message`)
+        },4000)
+    })
+}
