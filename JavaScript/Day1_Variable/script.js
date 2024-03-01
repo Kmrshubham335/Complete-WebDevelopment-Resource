@@ -12,6 +12,7 @@ var na = "John";
 var age = 32;
 var city = "New York";
 console.log(`My Name is ${na} and I am ${age} years old living in ${city}.`);
+// console.table([na,age,city])
 
 //type  of variable
 console.log(typeof na, typeof age);

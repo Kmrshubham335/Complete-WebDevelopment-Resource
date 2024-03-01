@@ -39,6 +39,7 @@ let str8= str7.concat(str9)
 console.log(str8)
 
 let imp = "Shubham"
-//replace only one time replaceALL 
+//replace only one time
 console.log(imp.replace("S", "A")) 
 console.log(imp.charAt(0)) //S
+
