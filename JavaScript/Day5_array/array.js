@@ -22,7 +22,13 @@ let arr=[1,3,5,8,9,10]
 // let a = arr.concat(arr1)
 // console.log(a)                      //  1,  3,  5,   8, 9, 10, 90, 101
 
-// let num =[1,2,4,5,6,7]
-// console.log(num.splice(1,2))       remove the value form that particular index[ 1, 5, 6, 7 ]
-// console.log(num)
+let num =[1,2,4,5,6,7]
+console.log(num.splice(1,2))
+//remove the value form that particular index[ 1, 5, 6, 7 ] and it manipulate the operation on the original array.
+console.log( "splice" ,num)
+
+
+ let num1 =[1,2,3,4,5,6,7]
+ console.log(num1.slice(1,3))
+ console.log("slice", num1)
 
