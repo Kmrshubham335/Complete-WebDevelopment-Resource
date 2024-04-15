@@ -39,5 +39,10 @@ const data =[
 //console.log(data[1].name)
 
 
-console.log(Object.keys(User))
-console.log(Object.values(User))
+// console.log(Object.keys(User))
+// console.log(Object.values(User))
+const key = Object.keys(User)
+console.log(key)
+//Return the all the key from User Object 
+console.log(User.hasOwnProperty("logIn"))
+//false
